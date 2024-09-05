@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url(resources/Norse-Bold.otf) format('opentype');
+}
+
+body {
+    display: flex;
+
+}
+
+aside {
+    background-image: url(resources/halie\ West.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 40rem;
+}
+
+.logo {
+    background: #00000073;
+    margin-top: 14rem;
+    padding: 0.7rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    height: 8rem;
+    opacity: 0.95;
+}
+
+.logo-img + span {
+    font-size: 6rem;
+    color: white;
+    font-family: 'Norse';
+}

@@ -161,3 +161,22 @@ main p:last-child {
     margin-top: 6rem;
     color: rgb(79, 77, 77);
 }
+
+@media  screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    aside,
+    main {
+        width: 100%;
+    }
+
+    .par {
+        max-width: 38ch;
+    }
+
+    .container {
+        grid-template-columns: 200px;
+    }
+}

@@ -171,6 +171,7 @@ main p:last-child {
 @media  screen and (max-width: 500px) {
     body {
         flex-direction: column;
+        width: 100%;
     }
 
     aside,
@@ -179,7 +180,7 @@ main p:last-child {
     }
 
     .par {
-        max-width: 35ch;
+        width: 24ch;
     }
 
     .container {

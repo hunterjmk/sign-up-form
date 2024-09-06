@@ -116,6 +116,23 @@ label {
     font-weight: 440;
 }
 
+input {
+    border: 1px solid #E5E7EB;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 2px 1px  #00000027;
+    outline: none;
+}
+
+#password:invalid,
+#confirm_password:invalid {
+    border: 1px solid red;
+}
+
 button {
     margin: 2rem 0;
     padding: 1rem 4rem;

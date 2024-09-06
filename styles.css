@@ -27,7 +27,7 @@ aside {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    width: 95rem;
+    width: 50rem;
 }
 
 .logo {
@@ -54,6 +54,7 @@ aside {
 
 main {
     background: #F9FAFB;
+    width: calc(100% - 40rem);
 }
 
 .left-margin {
@@ -73,4 +74,36 @@ p:first-child {
 
 p:nth-child(2) {
     margin-bottom: 5rem;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem 0;
+    box-shadow: 0 2px 5px #00000027;
+}
+
+fieldset {
+   border: 0;
+}
+
+legend {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    row-gap: 2rem;
+    column-gap: 0;
+}
+
+label {
+    display: block;
+    letter-spacing: 0.1ch;
+    font-weight: 440;
+}
+
+button {
+    margin-top: 2rem;
 }
